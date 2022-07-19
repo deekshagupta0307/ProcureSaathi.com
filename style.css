@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar-brand img{
+    height: 80px;
+    padding-left: 30px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover{
+    color: rgb(169, 165, 165)!important;
+}
+
+.navbar{
+    background: white;
+    height: 80px;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#slider{
+    width: 100%;
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50);
+    bottom: initial!important;
+}
+
+.carousel-caption h5{
+    color: white;
+    font-size: 42px;
+}
+
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.about-content{
+    padding-top: 20px;
+}
+
+#About h2{
+    margin-top: 80px;
+}
+
+#buyers{
+    background-image: url(img/buyers.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#buyers h1{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+}
+
+#buyers h1::after{
+    content:'' ;
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.buyers{
+    margin-top: 40px;
+}
+
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#buyers p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.buyers .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+
+
+#Suppliers{
+    background-image: url(img/buyers.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#Suppliers h1{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+}
+
+#Suppliers h1::after{
+    content:'' ;
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.Suppliers{
+    margin-top: 40px;
+}
+
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#Suppliers p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.Suppliers .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+#products{
+    background-image: url(img/buyers.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#products h1{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+}
+
+#products h1::after{
+    content:'' ;
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.products{
+    margin-top: 40px;
+}
+
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#products p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.products .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+
+.profile-pic{
+    margin-top: 25px;
+}
+
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;  
+    height: 300px; 
+}
+
+.profile-pic h5{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 290px;
+    
+}
+
+.profile-pic h6{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 290px;
+    
+}
+
+.profile-pic h6{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 290px;
+    
+}
+
+.img-responsive{
+    border-radius: 500px;
+    height: 200px;
+    margin-left: 290px;
+}
+
+#Team h1{
+    text-align: center;
+    margin-top: 70px;
+}
+
+#contact{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;    
+}
+
+.contact-form{
+    padding: 15px;
+
+}
+
+#contact h1{
+    margin-left: 480px;
+    margin-bottom: 80px;
+    
+}
+
+.form-control{
+    border-radius: 0!important;
+    border: #555;
+}
+
+::placeholder{
+    color: #999!important;
+}
+
+.text-footer{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
